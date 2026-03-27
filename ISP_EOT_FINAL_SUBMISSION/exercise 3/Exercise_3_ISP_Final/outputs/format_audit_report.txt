@@ -1,0 +1,51 @@
+NARBONNE FILM FESTIVAL — FORMAT VALIDATION REPORT
+============================================================
+
+File: Cosmos_War_of_the_Planets.mp4
+Compliant: NO
+Problematic fields:
+- Video codec: expected hevc, got 'h264'
+- Resolution: expected 640x360, got 628x354
+- FPS: expected ~25, got 29.97
+- Aspect ratio: expected 16:9, got 314:177
+- Audio bitrate: expected ≤256 kb/s, got 317.1 kb/s
+Converted: Cosmos_War_of_the_Planets_formatOK.mp4
+
+File: Last_man_on_earth_1964.mov
+Compliant: NO
+Problematic fields:
+- Video codec: expected hevc, got 'prores'
+- FPS: expected ~25, got 23.98
+- Video bitrate: expected 2-5 Mb/s, got 9.29 Mb/s
+- Audio codec: expected aac, got 'pcm_s16le'
+- Audio bitrate: expected ≤256 kb/s, got 1536.0 kb/s
+Converted: Last_man_on_earth_1964_formatOK.mp4
+
+File: The_Gun_and_the_Pulpit.avi
+Compliant: NO
+Problematic fields:
+- Container: expected mp4, got 'avi'
+- Video codec: expected hevc, got 'rawvideo'
+- Resolution: expected 640x360, got 720x404
+- Aspect ratio: expected 16:9, got 180:101
+- Video bitrate: expected 2-5 Mb/s, got 87.44 Mb/s
+- Audio codec: expected aac, got 'pcm_s16le'
+- Audio bitrate: expected ≤256 kb/s, got 1536.0 kb/s
+Converted: The_Gun_and_the_Pulpit_formatOK.mp4
+
+File: The_Hill_Gang_Rides_Again.mp4
+Compliant: NO
+Problematic fields:
+- Video codec: expected hevc, got 'h264'
+- Video bitrate: expected 2-5 Mb/s, got 7.54 Mb/s
+Converted: The_Hill_Gang_Rides_Again_formatOK.mp4
+
+File: Voyage_to_the_Planet_of_Prehistoric_Women.mp4
+Compliant: NO
+Problematic fields:
+- FPS: expected ~25, got 29.97
+- Video bitrate: expected 2-5 Mb/s, got 8.04 Mb/s
+- Audio codec: expected aac, got 'mp3'
+- Audio bitrate: expected ≤256 kb/s, got 320.0 kb/s
+Converted: Voyage_to_the_Planet_of_Prehistoric_Women_formatOK.mp4
+
